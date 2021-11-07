@@ -11,7 +11,7 @@ It is a fully Responsive WebPage using React Js and CSS.
 ![image](https://user-images.githubusercontent.com/91049345/140649432-ea7da2b8-c662-49d6-b225-df7dd39d0e00.png)
 ## Installation
 
-Install E-Shop with npm
+Install this Project with npm
 
 ```bash
   npm install
