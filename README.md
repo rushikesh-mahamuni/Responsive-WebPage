@@ -19,7 +19,7 @@ Install this Project with npm
 ```
 
 
-##  Tech Staks
+##  Tech Stacks
 
 ### React Js
 
@@ -48,5 +48,7 @@ Install this Project with npm
     4. Link :-           Link component is used to create links to different routes and implement navigation around the application. It works like HTML anchor tag.
 
 
+## Author
 
+- [@rushikesh-mahamuni](https://github.com/rushikesh-mahamuni)
    
