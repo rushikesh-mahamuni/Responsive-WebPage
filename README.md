@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Fully Responsive Web Page
 
-## Available Scripts
+It is a fully Responsive WebPage using React Js and CSS.
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+##  Sample Screenshots
 
-### `yarn test`
+![image](https://user-images.githubusercontent.com/91049345/140649432-ea7da2b8-c662-49d6-b225-df7dd39d0e00.png)
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install E-Shop with npm
 
-### `yarn build`
+```bash
+  npm install
+  
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Tech Staks
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### React Js
 
-### `yarn eject`
+    React helps you create your web applications in a more maintainable way.
+    React enables developer to reuse components.  
+#### Components used from Ract Js
+    1. useState() :- 1. useState is a Hook that lets you add React state to function components.
+                        If we write a function component and realize we need to add some state to it, previously we had to convert it to a class.
+                        Now we can use a Hook inside the existing function component.
+                     2. The only argument to the useState() Hook is the initial state. 
+                     3. It returns a pair of values: the current state and a function that updates it. 
+    
+    2. useEffect() :- 1. By using this Hook, we tell React that our component needs to do something after render. 
+                         React will remember the function that we passed , and call it later after performing the DOM updates.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### React-Router
+    I have used React-Router for Routing in this web application which  enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
+#### Components used from react-router-dom
+    1. BrowserRouter :- BrowserRouter is a router implementation that uses the HTML5 history API to keep your UI in sync with the URL. 
+                        It is the parent component that is used to store all of the other components.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    2. Route :-         Route is the conditionally shown component that renders some UI when its path matches the current URL.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    3. Switch :-         Switch component is used to render only the first route that matches the location rather than rendering all matching routes.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    4. Link :-           Link component is used to create links to different routes and implement navigation around the application. It works like HTML anchor tag.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
